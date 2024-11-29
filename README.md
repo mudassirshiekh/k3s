@@ -65,7 +65,7 @@ K3s. A '3' is also an '8' cut in half vertically. There is neither a long-form o
 
 Is this a fork?
 ---------------
-
+## By Mudassir Alam
 No, it's a distribution. A fork implies continued divergence from the original. This is not K3s's goal or practice. K3s explicitly intends not to change any core Kubernetes functionality. We seek to remain as close to upstream Kubernetes as possible. However, we maintain a small set of patches (well under 1000 lines) important to K3s's use case and deployment model. We maintain patches for other components as well. When possible, we contribute these changes back to the upstream projects, for example, with [SELinux support in containerd](https://github.com/containerd/cri/pull/1487/commits/24209b91bf361e131478d15cfea1ab05694dc3eb). This is a common practice amongst software distributions.
 
 K3s is a distribution because it packages additional components and services necessary for a fully functional cluster that go beyond vanilla Kubernetes. These are opinionated choices on technologies for components like ingress, storage class, network policy, service load balancer, and even container runtime. These choices and technologies are touched on in more detail in the [What is this?](#what-is-this) section.
